@@ -3,7 +3,6 @@ from src.utils import saveCache, getChange, show
 
 username = input('Please input your username: ')
 
-
 followers = getFollowers(username=username)
 if len(followers) > 0:
     change = getChange(newFollowers=followers)
